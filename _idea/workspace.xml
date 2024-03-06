@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d177ed98-98ff-4509-8c69-42bc12353f3d" name="新的变更列表" comment="新的变更列表">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/config/ElasticSerachClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/AllCountryDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/ChinaDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/DiseaseCauseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/DiseaseKindDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/EastwestDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/EducateStateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/Hospital1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/KindDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/MedicineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/NewPatDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/OccupationalStatusController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/ProPatDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/RecoderDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/SexMarryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/TotalDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/UnderInterveneDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/WenjuanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/dao/AllcountrydataDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/dao/ComdataDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/dao/Hospital1Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/dao/MedicineDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/dao/MetaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/dao/ProvinceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/dao/SingledataDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/entity/Allcountrydata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/entity/Comdata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/entity/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/entity/Hospital1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/entity/Medicine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/entity/Meta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/entity/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/entity/Singledata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/service/AllcountrydataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/service/ComdataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/service/Hospital1Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/service/MedicineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/service/MetaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/service/SingledataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/util/ElasticSearchUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/util/EntCoordSyncJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AllcountrydataDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ComdataDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/Hospital1Dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/MedicineDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/MetaDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProvinceDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SingledataDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wlw/community/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/CommunityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/CommunityApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/aspect/ServiceLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/aspect/ServiceLogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/AlphaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/CommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/DiscussPostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/LikeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/MessageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/TableController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/advice/ExceptionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/advice/ExceptionAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/interceptor/LoginRequiredInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/controller/interceptor/LoginTicketInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/dao/AlphaDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/dao/AlphaDaoHibernateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/dao/AlphaDaoMyBatisImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/dao/CommentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/dao/DiscussPostMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/dao/LoginTicketMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/dao/MessageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/dao/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/entity/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/entity/DiscussPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/entity/LoginTicket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/entity/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/entity/Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/service/AlphaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/service/CommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/service/DiscussPostService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/service/LikeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/service/MessageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/util/CommunityConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/util/CommunityConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/util/CommunityUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/util/CommunityUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/util/HostHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/util/RedisKeyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/util/RedisKeyUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlw/community/util/SensitiveFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wlw/community/util/SensitiveFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/comment-mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/discusspost-mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/message-mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/user-mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/discuss-detail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/letter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/ajaxdemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/student.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/captcha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/chuikelogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/axios.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/discuss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/echarts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/letter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/sensitive-word.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/sensitive-word.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mail/activation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mail/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/admin/data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/discuss-detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/followee.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/follower.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/forget.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/letter-detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/letter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/my-post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/my-reply.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/notice-detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/notice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/operate-result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/setting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/table/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wlw/community/CommunityApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wlw/community/CommunityApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wlw/community/MailTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wlw/community/MapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wlw/community/RedisTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="HTTP Public Environment File" />
+        <option value="Interface" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1yWS2mzG7H4WrITC4oVUfDbzoy3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言" value="MySQL" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.32460734" />
+    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\workspace\community\src\main\resources\static" />
+      <recent name="D:\work\workspace\community\src\main\resources\static\js" />
+      <recent name="D:\work\workspace\community\src\main\resources\static\images" />
+      <recent name="D:\work\workspace\community\src\main\resources\static\font" />
+      <recent name="D:\work\workspace\community\src\main\resources\static\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\workspace\community\src\main\resources\templates" />
+      <recent name="D:\work\workspace\community\src\main\resources\static\css\images" />
+      <recent name="D:\work\workspace\community\src\main\resources\templates\visual" />
+      <recent name="D:\work\workspace\community\src\main\resources\templates\table" />
+      <recent name="D:\work\workspace\community\src\main\resources\templates\site" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CommunityApplication">
+    <configuration name="EntCoordSyncJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wlw.community.util.EntCoordSyncJob" />
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wlw.community.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wlw.community.util.HttpMethod" />
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wlw.community.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommunityApplicationTests.testBeanConfig" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wlw.community.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wlw.community" />
+      <option name="MAIN_CLASS_NAME" value="com.wlw.community.CommunityApplicationTests" />
+      <option name="METHOD_NAME" value="testBeanConfig" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.getSpringVersion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wlw.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wlw.community" />
+      <option name="MAIN_CLASS_NAME" value="com.wlw.community.MapperTest" />
+      <option name="METHOD_NAME" value="getSpringVersion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.ttt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wlw.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wlw.community" />
+      <option name="MAIN_CLASS_NAME" value="com.wlw.community.MapperTest" />
+      <option name="METHOD_NAME" value="ttt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wlw.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wlw.community" />
+      <option name="MAIN_CLASS_NAME" value="com.wlw.community.test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommunityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="community" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wlw.community.CommunityApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CommunityApplicationTests.testBeanConfig" />
+      <item itemvalue="JUnit.MapperTest.getSpringVersion" />
+      <item itemvalue="JUnit.MapperTest.ttt" />
+      <item itemvalue="JUnit.test.test" />
+      <item itemvalue="Spring Boot.CommunityApplication" />
+      <item itemvalue="应用程序.EntCoordSyncJob" />
+      <item itemvalue="应用程序.HttpMethod" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test.test" />
+        <item itemvalue="应用程序.HttpMethod" />
+        <item itemvalue="应用程序.EntCoordSyncJob" />
+        <item itemvalue="JUnit.MapperTest.ttt" />
+        <item itemvalue="JUnit.MapperTest.getSpringVersion" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SpringRepositoriesView">
+    <option name="searchInLibraries" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="d177ed98-98ff-4509-8c69-42bc12353f3d" name="新的变更列表" comment="" />
+      <created>1632365647362</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632365647362</updated>
+      <workItem from="1632365648706" duration="1510000" />
+      <workItem from="1632378383958" duration="716000" />
+      <workItem from="1632379309492" duration="3191000" />
+      <workItem from="1632467859814" duration="9000" />
+      <workItem from="1632657398275" duration="1566000" />
+      <workItem from="1632702604547" duration="860000" />
+      <workItem from="1632705077458" duration="5830000" />
+      <workItem from="1632713557298" duration="1003000" />
+      <workItem from="1632731780982" duration="1570000" />
+      <workItem from="1632789043994" duration="509000" />
+      <workItem from="1632793711033" duration="596000" />
+      <workItem from="1632810190017" duration="4000" />
+      <workItem from="1633922884020" duration="603000" />
+      <workItem from="1633997582213" duration="1090000" />
+      <workItem from="1634005685501" duration="5594000" />
+      <workItem from="1634025224782" duration="612000" />
+      <workItem from="1634045357823" duration="243000" />
+      <workItem from="1634083010774" duration="633000" />
+      <workItem from="1634095874213" duration="11000" />
+      <workItem from="1634538782128" duration="2056000" />
+      <workItem from="1634566018197" duration="5009000" />
+      <workItem from="1634604874381" duration="3000" />
+      <workItem from="1634694737811" duration="393000" />
+      <workItem from="1634737914886" duration="170000" />
+      <workItem from="1634774154063" duration="73000" />
+      <workItem from="1634776093649" duration="78000" />
+      <workItem from="1634777049481" duration="2363000" />
+      <workItem from="1634780311689" duration="5000" />
+      <workItem from="1635412145278" duration="3310000" />
+      <workItem from="1635420259540" duration="71000" />
+      <workItem from="1635420360368" duration="1818000" />
+      <workItem from="1635726352446" duration="7000" />
+      <workItem from="1635726481023" duration="17000" />
+      <workItem from="1635754559700" duration="7252000" />
+      <workItem from="1635774108995" duration="3000" />
+      <workItem from="1635774514190" duration="2284000" />
+      <workItem from="1635812873845" duration="58000" />
+      <workItem from="1635835375389" duration="4525000" />
+      <workItem from="1635859978770" duration="6976000" />
+      <workItem from="1635910684647" duration="19000" />
+      <workItem from="1635948457208" duration="1429000" />
+      <workItem from="1635986033319" duration="478000" />
+      <workItem from="1635989155845" duration="4228000" />
+      <workItem from="1635994960078" duration="2885000" />
+      <workItem from="1636006303705" duration="9855000" />
+      <workItem from="1636024643633" duration="3560000" />
+      <workItem from="1636032289458" duration="24000" />
+      <workItem from="1636032373303" duration="3000" />
+      <workItem from="1636032428229" duration="1700000" />
+      <workItem from="1636034647961" duration="30000" />
+      <workItem from="1636034711483" duration="8000" />
+      <workItem from="1636098305261" duration="720000" />
+      <workItem from="1636108304054" duration="158000" />
+      <workItem from="1636115278957" duration="2032000" />
+      <workItem from="1636272107962" duration="3066000" />
+      <workItem from="1636281556766" duration="982000" />
+      <workItem from="1636332150918" duration="652000" />
+      <workItem from="1636358111632" duration="11012000" />
+      <workItem from="1636419414038" duration="128000" />
+      <workItem from="1636435269132" duration="1396000" />
+      <workItem from="1636440259627" duration="187000" />
+      <workItem from="1636440526671" duration="1737000" />
+      <workItem from="1636443261082" duration="5406000" />
+      <workItem from="1636455723929" duration="7999000" />
+      <workItem from="1636504644050" duration="655000" />
+      <workItem from="1636511299808" duration="4844000" />
+      <workItem from="1636517911533" duration="916000" />
+      <workItem from="1636525966712" duration="7000" />
+      <workItem from="1636530495424" duration="3282000" />
+      <workItem from="1636540721483" duration="17218000" />
+      <workItem from="1636595538417" duration="10155000" />
+      <workItem from="1636610669654" duration="9904000" />
+      <workItem from="1636628470805" duration="6009000" />
+      <workItem from="1636713639139" duration="607000" />
+      <workItem from="1636716689707" duration="775000" />
+      <workItem from="1636781902133" duration="2661000" />
+      <workItem from="1636809999911" duration="4533000" />
+      <workItem from="1636878744004" duration="4310000" />
+      <workItem from="1636892855709" duration="4902000" />
+      <workItem from="1636936411927" duration="2219000" />
+      <workItem from="1636939631758" duration="201000" />
+      <workItem from="1636939862270" duration="127000" />
+      <workItem from="1636940168112" duration="9000" />
+      <workItem from="1636940350953" duration="167000" />
+      <workItem from="1636940522410" duration="2000" />
+      <workItem from="1636940917204" duration="52000" />
+      <workItem from="1636941015329" duration="7000" />
+      <workItem from="1636944784498" duration="3359000" />
+      <workItem from="1636956411971" duration="1129000" />
+      <workItem from="1636958591900" duration="2000" />
+      <workItem from="1636964427242" duration="4087000" />
+      <workItem from="1636976220017" duration="5946000" />
+      <workItem from="1637022922855" duration="12526000" />
+      <workItem from="1637042818748" duration="3555000" />
+      <workItem from="1637051613814" duration="2577000" />
+      <workItem from="1637061707694" duration="5679000" />
+      <workItem from="1637109256481" duration="47000" />
+      <workItem from="1637111561296" duration="491000" />
+      <workItem from="1637112380919" duration="35000" />
+      <workItem from="1637117285671" duration="2837000" />
+      <workItem from="1637150499669" duration="1274000" />
+      <workItem from="1637152564935" duration="43000" />
+      <workItem from="1637216494425" duration="653000" />
+      <workItem from="1637223345076" duration="700000" />
+      <workItem from="1637225905219" duration="1486000" />
+      <workItem from="1637233566211" duration="5312000" />
+      <workItem from="1637541272079" duration="7643000" />
+      <workItem from="1637562140266" duration="5000" />
+      <workItem from="1637569765099" duration="806000" />
+      <workItem from="1637572076590" duration="1808000" />
+      <workItem from="1637626909556" duration="5882000" />
+      <workItem from="1637632826663" duration="134000" />
+      <workItem from="1637633051730" duration="4263000" />
+      <workItem from="1637638505937" duration="1000" />
+      <workItem from="1637638656268" duration="22000" />
+      <workItem from="1637638945686" duration="5000" />
+      <workItem from="1637651600963" duration="576000" />
+      <workItem from="1637658754131" duration="607000" />
+      <workItem from="1637712569845" duration="1659000" />
+      <workItem from="1637719792241" duration="155000" />
+      <workItem from="1637820432373" duration="2469000" />
+      <workItem from="1637886800193" duration="1362000" />
+      <workItem from="1637913227053" duration="694000" />
+      <workItem from="1637915438804" duration="446000" />
+      <workItem from="1638147504263" duration="4000" />
+      <workItem from="1638153397056" duration="3610000" />
+      <workItem from="1638167960926" duration="3909000" />
+      <workItem from="1638190852460" duration="1432000" />
+      <workItem from="1638232732528" duration="920000" />
+      <workItem from="1638233850911" duration="6927000" />
+      <workItem from="1638252636442" duration="2710000" />
+      <workItem from="1638269112405" duration="762000" />
+      <workItem from="1638277800456" duration="50000" />
+      <workItem from="1638326234363" duration="6261000" />
+      <workItem from="1638429626337" duration="2548000" />
+      <workItem from="1638524716900" duration="2002000" />
+      <workItem from="1638620053183" duration="11000" />
+      <workItem from="1638621760728" duration="2704000" />
+      <workItem from="1638691845226" duration="2297000" />
+      <workItem from="1638694223074" duration="518000" />
+      <workItem from="1638694750201" duration="1297000" />
+      <workItem from="1638753108034" duration="1390000" />
+      <workItem from="1638756180438" duration="8097000" />
+      <workItem from="1638771202738" duration="4929000" />
+      <workItem from="1638838946662" duration="1000" />
+      <workItem from="1638841099137" duration="4264000" />
+      <workItem from="1638847064163" duration="1918000" />
+      <workItem from="1638858552126" duration="2821000" />
+      <workItem from="1638878880847" duration="6342000" />
+      <workItem from="1638923094427" duration="8893000" />
+      <workItem from="1639297550937" duration="4597000" />
+      <workItem from="1639355518957" duration="4941000" />
+      <workItem from="1639375784978" duration="962000" />
+      <workItem from="1639381251556" duration="934000" />
+      <workItem from="1639443339218" duration="2765000" />
+      <workItem from="1639447021239" duration="557000" />
+      <workItem from="1639447603293" duration="364000" />
+      <workItem from="1639447996514" duration="1075000" />
+      <workItem from="1639449095505" duration="3658000" />
+      <workItem from="1639452926384" duration="21000" />
+      <workItem from="1639454406475" duration="1411000" />
+      <workItem from="1639456528253" duration="570000" />
+      <workItem from="1639458046880" duration="4564000" />
+      <workItem from="1639530130876" duration="1579000" />
+      <workItem from="1639532557382" duration="6341000" />
+      <workItem from="1639649971793" duration="1043000" />
+      <workItem from="1639661946110" duration="827000" />
+      <workItem from="1639735109222" duration="1186000" />
+      <workItem from="1639960866118" duration="5553000" />
+      <workItem from="1640053421133" duration="318000" />
+      <workItem from="1640055960813" duration="9395000" />
+      <workItem from="1640137338206" duration="8772000" />
+      <workItem from="1640564651405" duration="4631000" />
+      <workItem from="1640585213625" duration="5895000" />
+      <workItem from="1640592058513" duration="4862000" />
+      <workItem from="1640602029384" duration="630000" />
+      <workItem from="1640651736577" duration="4775000" />
+      <workItem from="1640656556217" duration="5925000" />
+      <workItem from="1640671428052" duration="2184000" />
+      <workItem from="1640676495783" duration="2768000" />
+      <workItem from="1640679742456" duration="8075000" />
+      <workItem from="1640695632908" duration="1042000" />
+      <workItem from="1640741886907" duration="6012000" />
+      <workItem from="1640757938266" duration="2375000" />
+      <workItem from="1640824574010" duration="6223000" />
+      <workItem from="1640850887798" duration="2020000" />
+      <workItem from="1640864649476" duration="845000" />
+      <workItem from="1640929656827" duration="661000" />
+      <workItem from="1641022162309" duration="679000" />
+      <workItem from="1641030994218" duration="2633000" />
+      <workItem from="1641102554788" duration="1329000" />
+      <workItem from="1641108373489" duration="1749000" />
+      <workItem from="1641110170804" duration="738000" />
+      <workItem from="1641206845598" duration="518000" />
+      <workItem from="1641255724930" duration="12321000" />
+      <workItem from="1641268124950" duration="5933000" />
+      <workItem from="1641278249826" duration="15246000" />
+      <workItem from="1641342666747" duration="10658000" />
+      <workItem from="1641356577859" duration="11615000" />
+      <workItem from="1641382088253" duration="2460000" />
+      <workItem from="1641428896549" duration="5699000" />
+      <workItem from="1641517001124" duration="899000" />
+      <workItem from="1642249811905" duration="712000" />
+      <workItem from="1642256901898" duration="1777000" />
+      <workItem from="1642309231434" duration="834000" />
+      <workItem from="1642347636813" duration="3218000" />
+      <workItem from="1642400767108" duration="1058000" />
+      <workItem from="1643606250950" duration="718000" />
+      <workItem from="1643944886148" duration="2302000" />
+      <workItem from="1645158450763" duration="794000" />
+      <workItem from="1645285385451" duration="509000" />
+      <workItem from="1645351475468" duration="2598000" />
+      <workItem from="1645402928636" duration="2746000" />
+      <workItem from="1645408178107" duration="3278000" />
+      <workItem from="1645490095558" duration="48000" />
+      <workItem from="1645490859583" duration="722000" />
+      <workItem from="1645497311316" duration="1000" />
+      <workItem from="1645500253862" duration="707000" />
+      <workItem from="1645576263112" duration="3845000" />
+      <workItem from="1645666157724" duration="5914000" />
+      <workItem from="1646007882415" duration="1998000" />
+      <workItem from="1646015737990" duration="694000" />
+      <workItem from="1646016461967" duration="11233000" />
+      <workItem from="1646106353210" duration="2452000" />
+      <workItem from="1646115774912" duration="3146000" />
+      <workItem from="1646186446107" duration="3537000" />
+      <workItem from="1646191217666" duration="1852000" />
+      <workItem from="1646214853394" duration="2343000" />
+      <workItem from="1646312887480" duration="494000" />
+      <workItem from="1646358152617" duration="19000" />
+      <workItem from="1646616087639" duration="2185000" />
+      <workItem from="1646621566156" duration="1672000" />
+      <workItem from="1646703369299" duration="2460000" />
+      <workItem from="1646707577921" duration="1042000" />
+      <workItem from="1646712159430" duration="874000" />
+      <workItem from="1646742580760" duration="1347000" />
+      <workItem from="1646883145318" duration="81000" />
+      <workItem from="1646909813311" duration="5279000" />
+      <workItem from="1646958529032" duration="2000" />
+      <workItem from="1647134462629" duration="3939000" />
+      <workItem from="1647163634216" duration="2226000" />
+      <workItem from="1647169508027" duration="5127000" />
+      <workItem from="1647179894527" duration="1228000" />
+      <workItem from="1647298776939" duration="501000" />
+      <workItem from="1647413075604" duration="35000" />
+      <workItem from="1647429209125" duration="1075000" />
+      <workItem from="1647582540568" duration="4630000" />
+      <workItem from="1647664961861" duration="3098000" />
+      <workItem from="1647697876587" duration="15000" />
+      <workItem from="1647760882121" duration="2356000" />
+      <workItem from="1647773983285" duration="6192000" />
+      <workItem from="1647818256705" duration="4327000" />
+      <workItem from="1647836511271" duration="4718000" />
+      <workItem from="1647858509661" duration="3679000" />
+      <workItem from="1647907924490" duration="6581000" />
+      <workItem from="1647930131924" duration="1237000" />
+      <workItem from="1647950856058" duration="1609000" />
+      <workItem from="1647990474614" duration="10077000" />
+      <workItem from="1648019525343" duration="12277000" />
+      <workItem from="1648076407001" duration="3014000" />
+      <workItem from="1648120959082" duration="6185000" />
+      <workItem from="1648607214417" duration="5401000" />
+      <workItem from="1648612728458" duration="654000" />
+      <workItem from="1648687411325" duration="9000" />
+      <workItem from="1648687780153" duration="444000" />
+      <workItem from="1648688865639" duration="9495000" />
+      <workItem from="1649032638942" duration="1292000" />
+      <workItem from="1649034434062" duration="3500000" />
+      <workItem from="1649120355233" duration="1451000" />
+      <workItem from="1649123619828" duration="4734000" />
+      <workItem from="1649141654465" duration="2088000" />
+      <workItem from="1649161735905" duration="82000" />
+      <workItem from="1649205580783" duration="2504000" />
+    </task>
+    <task id="LOCAL-00001" summary="新的变更列表">
+      <created>1637118283797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637118283797</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新的变更列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="新的变更列表" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.BeanCreationException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.thymeleaf.exceptions.TemplateInputException" package="org.thymeleaf.exceptions" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

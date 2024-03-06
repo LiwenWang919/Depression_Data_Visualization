@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wlw.community.dao.Hospital1Dao">
+
+<!--    <resultMap type="com.wlw.community.entity.Hospital1" id="Hospital1Map">-->
+<!--        <result property="id" column="id" jdbcType="INTEGER"/>-->
+<!--        <result property="name" column="name" jdbcType="VARCHAR"/>-->
+<!--        <result property="type" column="type" jdbcType="VARCHAR"/>-->
+<!--        <result property="phone" column="phone" jdbcType="VARCHAR"/>-->
+<!--        <result property="grade" column="grade" jdbcType="VARCHAR"/>-->
+<!--        <result property="main" column="main" jdbcType="VARCHAR"/>-->
+<!--        <result property="website" column="website" jdbcType="VARCHAR"/>-->
+<!--        <result property="addr" column="addr" jdbcType="VARCHAR"/>-->
+<!--        <result property="ip" column="ip" jdbcType="VARCHAR"/>-->
+<!--    </resultMap>-->
+
+
+    <select id="queryByAll" resultType="com.wlw.community.entity.Hospital1">
+        select * from hospital1
+    </select>
+
+</mapper>
+

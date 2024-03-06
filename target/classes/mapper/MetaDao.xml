@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wlw.community.dao.MetaDao">
+
+    <resultMap type="com.wlw.community.entity.Meta" id="MetaMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="top" column="top" jdbcType="VARCHAR"/>
+        <result property="mid" column="mid" jdbcType="VARCHAR"/>
+        <result property="sub" column="sub" jdbcType="VARCHAR"/>
+        <result property="nforall" column="nforall" jdbcType="INTEGER"/>
+        <result property="unweightedforall" column="unweightedforall" jdbcType="NUMERIC"/>
+        <result property="weightedforall" column="weightedforall" jdbcType="NUMERIC"/>
+        <result property="nfor12" column="nfor12" jdbcType="INTEGER"/>
+        <result property="unweightedfor12" column="unweightedfor12" jdbcType="NUMERIC"/>
+        <result property="weightedfor12" column="weightedfor12" jdbcType="NUMERIC"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="MetaMap">
+        select
+          id, top, mid, sub, nforall, unweightedforall, weightedforall, nfor12, unweightedfor12, weightedfor12
+        from meta
+        where id = #{id}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from meta
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="top != null and top != ''">
+                and top = #{top}
+            </if>
+            <if test="mid != null and mid != ''">
+                and mid = #{mid}
+            </if>
+            <if test="sub != null and sub != ''">
+                and sub = #{sub}
+            </if>
+            <if test="nforall != null">
+                and nforall = #{nforall}
+            </if>
+            <if test="unweightedforall != null">
+                and unweightedforall = #{unweightedforall}
+            </if>
+            <if test="weightedforall != null">
+                and weightedforall = #{weightedforall}
+            </if>
+            <if test="nfor12 != null">
+                and nfor12 = #{nfor12}
+            </if>
+            <if test="unweightedfor12 != null">
+                and unweightedfor12 = #{unweightedfor12}
+            </if>
+            <if test="weightedfor12 != null">
+                and weightedfor12 = #{weightedfor12}
+            </if>
+        </where>
+    </select>
+
+
+    <select id="query3" resultType="com.wlw.community.entity.Meta">
+        select *
+        from meta
+        <where>
+            top = #{top} and mid = #{mid}
+            <if test="#{sub} != null">
+                and sub = #{sub}
+            </if>
+        </where>
+    </select>
+
+</mapper>
+

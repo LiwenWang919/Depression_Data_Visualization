@@ -1,0 +1,10 @@
+GET http://localhost:8080/user/header/{{filename}}
+
+###
+
+GET http://localhost:8080/alpha/Hello
+
+<> 2021-10-18T143744.404.html
+
+###
+

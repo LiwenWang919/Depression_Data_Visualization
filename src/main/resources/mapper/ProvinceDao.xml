@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wlw.community.dao.ProvinceDao">
+
+    <resultMap type="com.wlw.community.entity.Province" id="ProvinceMap">
+        <result property="province" column="province" jdbcType="VARCHAR"/>
+        <result property="year" column="year" jdbcType="INTEGER"/>
+        <result property="sum" column="sum" jdbcType="INTEGER"/>
+        <result property="percent" column="percent" jdbcType="NUMERIC"/>
+        <result property="id" column="id" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="ProvinceMap">
+        select
+          province, year, sum, percent, id
+        from province
+        where id = #{id}
+    </select>
+    <select id="count" resultType="java.lang.Long">
+        select count(distinct id) from province
+    </select>
+    <select id="queryTop5" resultType="com.wlw.community.entity.Province">
+        select * FROM province ORDER BY percent DESC LIMIT 5
+    </select>
+
+</mapper>
+

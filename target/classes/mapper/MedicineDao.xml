@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wlw.community.dao.MedicineDao">
+
+    <resultMap type="com.wlw.community.entity.Medicine" id="MedicineMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="major" column="major" jdbcType="VARCHAR"/>
+        <result property="component" column="component" jdbcType="VARCHAR"/>
+        <result property="company" column="company" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="MedicineMap">
+        select
+          id, name, major, component, company
+        from medicine
+        where id = #{id}
+    </select>
+    <select id="query" resultType="com.wlw.community.entity.Medicine">
+        select * from medicine where name like #{condition} OR major like #{condition} OR component like #{condition} OR company like #{condition}
+    </select>
+</mapper>
+

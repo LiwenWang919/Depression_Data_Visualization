@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wlw.community.dao.AllcountrydataDao">
+
+    <resultMap type="com.wlw.community.entity.Allcountrydata" id="AllcountrydataMap">
+        <result property="measure" column="measure" jdbcType="INTEGER"/>
+        <result property="location" column="location" jdbcType="INTEGER"/>
+        <result property="sex" column="sex" jdbcType="INTEGER"/>
+        <result property="age" column="age" jdbcType="INTEGER"/>
+        <result property="cause" column="cause" jdbcType="INTEGER"/>
+        <result property="metric" column="metric" jdbcType="INTEGER"/>
+        <result property="year" column="year" jdbcType="INTEGER"/>
+        <result property="val" column="val" jdbcType="NUMERIC"/>
+        <result property="upper" column="upper" jdbcType="NUMERIC"/>
+        <result property="lower" column="lower" jdbcType="NUMERIC"/>
+        <result property="id" column="id" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="AllcountrydataMap">
+        select
+          measure, location, sex, age, cause, metric, year, val, upper, lower, id
+        from allcountrydata
+        where id = #{id}
+    </select>
+
+</mapper>
+
