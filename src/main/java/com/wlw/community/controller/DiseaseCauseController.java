@@ -25,10 +25,7 @@ public class DiseaseCauseController {
 
         JSONObject jsonObject=new JSONObject();
 
-        String s="{\"data\":[\n" +
-                "   [\'遗传\', \'身体疾病\', \'人格\', \'生物节律变化\', \'生理因素\',\'心理和社会因素\'],\n" +
-                "   [82, 113, 134, 68, 97, 112],\n" +
-                "]}";
+        String s="{}";
 
         jsonObject=JSONObject.parseObject(s);
         String jsonStr=JSONObject.toJSONString(jsonObject);

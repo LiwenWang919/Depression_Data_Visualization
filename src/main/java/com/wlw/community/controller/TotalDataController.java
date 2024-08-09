@@ -16,9 +16,7 @@ public class TotalDataController {
         JSONObject jsonObject=new JSONObject();
 
 
-        String s="{\"data\":[\n" +
-                "   [6.8,98157822],\n" +
-                "]}";
+        String s="{}";
 
 
         jsonObject= JSONObject.parseObject(s);

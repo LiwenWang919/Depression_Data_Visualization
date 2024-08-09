@@ -15,14 +15,7 @@ public class EducateStateController {
 
         JSONObject jsonObject=new JSONObject();
 
-        String s="{xData: [\"未受教育\", \"小学\", \"初中\", \"高中\", \"高等教育\"],\n" +
-                "        seriesData: [\n" +
-                "          { value: 7.4, name: \"未受教育\" },\n" +
-                "          { value: 6.9, name: \"小学\" },\n" +
-                "          { value: 6.5, name: \"初中\" },\n" +
-                "          { value: 6.0, name: \"高中\" },\n" +
-                "          { value: 5.2, name: \"高等教育\" },\n" +
-                "        ]}";
+        String s="{}";
 
         jsonObject=JSONObject.parseObject(s);
         String jsonStr=JSONObject.toJSONString(jsonObject);

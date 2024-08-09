@@ -15,15 +15,7 @@ public class EastwestDataController {
 
         JSONObject jsonObject=new JSONObject();
 
-        String s="{\"data\":[" +
-                "['农村', '全体', \"<span  class='colorRed'>7.0%</span>\"],\n" +
-                "['农村', '东部', \"<span  class='colorRed'>6.7%</span>\"],\n" +
-                "['农村', '中部', \"<span  class='colorRed'>7.5%</span>\"],\n" +
-                "['农村', '西部', \"<span  class='colorRed'>6.8%</span>\"],\n" +
-                "['城镇', '全体', \"<span  class='colorGrass'>6.7%</span>\"],\n" +
-                "['城镇', '东部', \"<span  class='colorGrass'>6.1%</span>\"],\n" +
-                "['城镇', '中部', \"<span  class='colorGrass'>6.4%</span>\"],\n" +
-                "['城镇', '西部', \"<span  class='colorGrass'>7.9%</span>\"]]}";
+        String s="{}";
 
         jsonObject=JSONObject.parseObject(s);
         String jsonStr=JSONObject.toJSONString(jsonObject);

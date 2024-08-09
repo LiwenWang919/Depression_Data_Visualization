@@ -15,10 +15,7 @@ public class NewPatDataController {
 
         JSONObject jsonObject=new JSONObject();
 
-        String s="{\"data\":[\n" +
-                "   [45, 32, 54, 23, 43, 71, 34, 45, 34, 53, 37, 64, 62, 24, 45],\n" +
-                "   [82, 113, 134, 68, 97, 112, 82, 113, 134, 68, 97, 112, 68, 97, 112],\n" +
-                "]}";
+        String s="{}";
 
         jsonObject=JSONObject.parseObject(s);
         String jsonStr=JSONObject.toJSONString(jsonObject);
